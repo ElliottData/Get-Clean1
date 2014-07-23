@@ -7,10 +7,15 @@ The script run_analysis.R works by reading in training and test observations, th
 At this point the features containing mean and standard deviation measurement are pulled as a subset of data. Then changes to the feature names were made to make the names more easily readable and R friendly. These changes included:
 
    -Replacing the abbreviation "t" with "time"
+   
    -Removing the "-" and "()" characters
+   
    -Replacing the abbreviation "f" with 'freq" (frequency)
+   
    -Replacing "std" with StdDev (standard deviation)
+   
    -Replacing "mean" with Mean (to maintain camel casing format)
+  
    -Replacing "BodyBody" with "Body"(to correct a typo found in the original features dataset) 
 
 The columns containing activity and subject are renamed as well, replacing the default names given by the system.
