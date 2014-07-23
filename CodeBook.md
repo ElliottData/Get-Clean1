@@ -24,7 +24,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 The Transformation & Cleanup
 
-The script run_analysis.R works reading in training and test observations, then merges the two sets together. The same is done for the datasets containing training and test subject information as a seperate data frame, then training and test activity observations are read in and combined into their own data frame as well. After this the list of features are applied to the appropiate columns as header names for the observerd measurements.
+The script run_analysis.R works by reading in training and test observations, then merges the two sets together. The same is done for the datasets containing training and test subject information as a seperate data frame, then training and test activity observations are read in and combined into their own data frame as well. After this the list of features are applied to the appropiate columns as header names for the observerd measurements.
 
 
 At this point the features containing mean and standard deviation measuresment are pulled as a subset of data. Then changes to the feature names were made to make the names more easily readable and R friendly. These changes included:
@@ -36,8 +36,7 @@ At this point the features containing mean and standard deviation measuresment a
    -Replacing "mean" with Mean (to maintain camel casing format)
    -Replacing "BodyBody" with "Body"(to correct a typo found in the original features dataset) 
 
+The columns containing activity and subject are renamed as well, replacing the dfault names given by the system.
 
-
-
-The columns containing activity and subject are renamed as well.
+As a final step the script summarizes the data by providing the average measurement for each feature, for each of the activities, by subject. 
 
