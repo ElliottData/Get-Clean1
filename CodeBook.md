@@ -45,13 +45,10 @@ Variable                     Value
    timeBodyAccJerkStdDevZ     :  mean average of for this feature  
    timeBodyGyroMeanX          :  mean average of for this feature  
    timeBodyGyroMeanY          :  mean average of for this feature
-   
    timeBodyGyroMeanZ          :  mean average of for this feature 
-   
    timeBodyGyroStdDevX        :  mean average of for this feature  
    timeBodyGyroStdDevY        :  mean average of for this feature  
    timeBodyGyroStdDevZ        :  mean average of for this feature 
-   
    timeBodyGyroJerkMeanX      :  mean average of for this feature 
    timeBodyGyroJerkMeanY      :  mean average of for this feature 
    timeBodyGyroJerkMeanZ      :  mean average of for this feature  
@@ -95,27 +92,15 @@ Variable                     Value
    freqBodyGyroMeanFreqX      :  mean average of for this feature  
    freqBodyGyroMeanFreqY      :  mean average of for this feature  
    freqBodyGyroMeanFreqZ      :  mean average of for this feature  
-  
    freqBodyAccMagMean         :  mean average of for this feature  
-  
    freqBodyAccMagStdDev       :  mean average of for this feature  
-  
    freqBodyAccMagMeanFreq     :  mean average of for this feature 
-  
    freqBodyAccJerkMagMean     :  mean average of for this feature  
-  
    freqBodyAccJerkMagStdDev   :  mean average of for this feature 
-  
    freqBodyAccJerkMagMeanFreq :  mean average of for this feature  
-  
    freqBodyGyroMagMean        :  mean average of for this feature  
-  
    freqBodyGyroMagStdDev      :  mean average of for this feature 
-  
    freqBodyGyroMagMeanFreq    :  mean average of for this feature 
-  
    freqBodyGyroJerkMagMean    :  mean average of for this feature 
-  
    freqBodyGyroJerkMagStdDev  :  mean average of for this feature
-  
-   freqBodyGyroJerkMagMeanFreq:  mean average of for this feature  
+  freqBodyGyroJerkMagMeanFreq :  mean average of for this feature  
