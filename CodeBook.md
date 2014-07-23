@@ -22,4 +22,6 @@ More information pertaining to the source of the data can be found here:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 
+The Transformation & Cleanup
 
+The script run_analysis.R works reading in training and test observations, then merges the two sets together. The same is done for the datasets containing training and test subject information, then training and test activity observations anre read in and combined as well.
