@@ -1,7 +1,7 @@
 The Data
 
    The data for this project was collected from the accelerometers from the Samsung Galaxy S smartphone. 
-   The original data I used is contained in 7 separete files: 
+   The original data I used is contained in 7 separate files: 
    
   xtest.txt-             a test dataset with observed measurements 
   
