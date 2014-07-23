@@ -7,7 +7,7 @@ The Data
   
   ytest.txt-             a dataset assinging activities to the test observations 
   
-  xtrain.txt-            a training dataset with observations
+  xtrain.txt-            a training dataset with observed measurements 
   
   ytrain.txt-            a dataset of the activities for the training data 
   
@@ -24,4 +24,20 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 The Transformation & Cleanup
 
-The script run_analysis.R works reading in training and test observations, then merges the two sets together. The same is done for the datasets containing training and test subject information, then training and test activity observations anre read in and combined as well.
+The script run_analysis.R works reading in training and test observations, then merges the two sets together. The same is done for the datasets containing training and test subject information as a seperate data frame, then training and test activity observations are read in and combined into their own data frame as well. After this the list of features are applied to the appropiate columns as header names for the observerd measurements.
+
+
+At this point the features containing mean and standard deviation measuresment are pulled as a subset of data. Then changes to the feature names were made to make the names more easily readable and R friendly. These changes included:
+
+   -Replacing the abbreviation "t" with "time"
+   -Removing the "-" and "()" characters
+   -Replacing the abbreviation "f" with 'freq" (frequency)
+   -Replacing "std" with StdDev (standard deviation)
+   -Replacing "mean" with Mean (to maintain camel casing format)
+   -Replacing "BodyBody" with "Body"(to correct a typo found in the original features dataset) 
+
+
+
+
+The columns containing activity and subject are renamed as well.
+
